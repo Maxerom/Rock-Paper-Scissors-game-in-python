@@ -120,6 +120,7 @@ celerybeat.pid
 *.sage.py
 
 # Environments
+rock-paper-scissor-venv/
 .env
 .venv
 env/
