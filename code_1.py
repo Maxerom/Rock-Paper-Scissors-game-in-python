@@ -9,7 +9,7 @@ import random
 import os
 import re
 
-def check_play_status():
+def check_play_status():                           # Asking the user if he wants to continue playing
     valid_responses = ['yes', 'no']
     while True:
         try:
@@ -27,7 +27,7 @@ def check_play_status():
         except ValueError as err:
             print(err)
 
-def play_rps():
+def play_rps():                             # Main Playing logic
     play = True
     while play:
         os.system('cls' if os.name == 'nt' else 'clear')
